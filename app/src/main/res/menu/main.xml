@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_smaller"
+        android:title="极小字体" />
+    <item
+        android:id="@+id/nav_small"
+        android:title="小字体" />
+    <item
+        android:id="@+id/nav_normal"
+        android:title="普通字体" />
+    <item
+        android:id="@+id/nav_big"
+        android:title="大字体" />
+    <item
+        android:id="@+id/nav_biger"
+        android:title="特大字体" />
+    <!--<item-->
+        <!--android:id="@+id/nav_test"-->
+        <!--android:title="本地修改日志初始化" />-->
+</menu>

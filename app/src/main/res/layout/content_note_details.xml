@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NoteEditActivity"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_note_details">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/abc_popup_background_mtrl_mult" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView_title"
+            android:inputType="none"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:typeface="monospace"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp" />
+
+        <include layout="@layout/include_separator"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/textView_content"
+            android:editable="false"
+            android:lineSpacingMultiplier="1.2"
+            android:textIsSelectable="false"
+            android:typeface="monospace"
+            android:layout_weight="1"
+            android:autoText="false"
+            android:scrollbars="vertical"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <include layout="@layout/include_separator"/>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="left|center_vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView15"
+                    android:textSize="12sp"
+                    android:text="创建时间：" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView_createTime"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="left|center_vertical"
+                android:layout_alignParentLeft="false"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView14"
+                    android:textSize="12sp"
+                    android:text="修改时间：" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView_modityTime"
+                    android:textSize="12sp"
+                    android:layout_marginTop="2dp" />
+
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true">-->
+
+                <!--<Button-->
+                    <!--android:layout_width="90dp"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:text="@string/button_AbsDel"-->
+                    <!--android:id="@+id/button_opration0"-->
+                    <!--android:background="@drawable/button_bg"-->
+                    <!--android:textSize="15sp"-->
+                    <!--android:typeface="monospace"-->
+                    <!--android:textColor="#ffffff"-->
+                    <!--android:visibility="gone" />-->
+
+                <!--<Button-->
+                    <!--android:layout_width="60dp"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:text="@string/button_del"-->
+                    <!--android:id="@+id/button_opration1"-->
+                    <!--android:layout_gravity="center_vertical|right"-->
+                    <!--android:background="@drawable/button_bg"-->
+                    <!--android:textSize="15sp"-->
+                    <!--android:typeface="monospace"-->
+                    <!--android:textColor="#ffffff" />-->
+
+            <!--</LinearLayout>-->
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

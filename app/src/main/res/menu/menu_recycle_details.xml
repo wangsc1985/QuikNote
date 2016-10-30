@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_recycle_details_summary"
+        android:title="首页摘要显示" />
+    <item
+        android:id="@+id/menu_recycle_details_del"
+        android:title="彻底删除" />
+    <item
+        android:id="@+id/menu_recycle_details_back"
+        android:title="恢复" />
+</menu>

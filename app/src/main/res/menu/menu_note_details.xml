@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_note_details_hidden"
+        android:title="移入私密空间" />
+    <item
+        android:id="@+id/menu_note_details_summary"
+        android:title="首页摘要显示" />
+    <item
+        android:id="@+id/menu_note_details_del"
+        android:title="删除" />
+</menu>

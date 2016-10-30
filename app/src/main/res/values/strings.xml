@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">便利备忘</string>
+    <string name="action_settings">设置</string>
+    <string name="button_save">保存</string>
+    <string name="button_del">删除</string>
+    <string name="button_edit">编辑</string>
+    <string name="button_AbsDel">彻底删除</string>
+
+    <string name="navigation_drawer_open">打开导航菜单</string>
+    <string name="navigation_drawer_close">关闭导航菜单</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_note_details">查看备忘</string>
+    <string name="title_activity_note_edit">编辑备忘</string>
+    <string name="title_activity_recycle">回收站</string>
+    <string name="title_activity_hidden">私密空间</string>
+    <string name="title_activity_create_password">为私密空间创建密码</string>
+    <string name="title_activity_confirm_password">输入密码</string>
+</resources>
